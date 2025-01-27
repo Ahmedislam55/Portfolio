@@ -1,0 +1,121 @@
+/* General Styles */
+.resume {
+    
+    color: #fff;
+    margin-top: 20px;
+    
+  }
+  .light .resume
+  {
+    color: #000;
+  }
+  
+    /* Timeline Section */
+  .timeline {
+    margin-bottom: 3rem;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon-box {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: darkorange; /* Color for icons */
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .timeline-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .timeline-item {
+    margin-bottom: 1.5em;
+  }
+  
+  .timeline-item-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .timeline-item-date {
+    font-size: 0.875rem;
+    color: var(--subtitle);
+  }
+  
+  .timeline-item-description {
+    color: var(--subtitle);
+    font-family: segoe ui light;
+  }
+  .timeline-item-description
+  {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Skills Section */
+  .skills {
+    margin-top: 2rem;
+  }
+  
+  .skills-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill-item {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-right: 0.75rem;
+  }
+  
+  .skill-name {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  
+  .skill-percent {
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: var(--subtitle);
+  }
+  
+  .skill-progress {
+    background-color: #e5e7eb;
+    height: 0.25rem;
+    border-radius: 9999px;
+  }
+  
+  .progress-bar {
+    background-color: #4CAF50; /* Example color, adjust based on skill */
+    height: 100%;
+    border-radius: 9999px;
+  }
+  
